@@ -10,8 +10,7 @@ function App() {
      <div className='flex'>
       <div className='Success'>
 
-       <Lists
-             
+       <Lists     
         title= "Success" 
         text="Order Placed Successfully. You can check order delivery status."
           />
