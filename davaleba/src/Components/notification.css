@@ -48,20 +48,21 @@
   }
  
 .green {
+
      width: 100px;
-     margin-right: 570px;
-      margin-top: -30px;
-    
+     margin-right: 520px;
+     margin-top: -30px;
+
  }
  .title {
    
    font-family: "Poppins";
    font-weight: 500;
    font-size: 60px;
-   line-height: 54px;
+   line-height: 28px;
    margin-left: 50px;
    margin-top: 25px;
-   width: 606px;
+   
  
  }
  .text{
@@ -72,8 +73,9 @@
     height: 80px;
      font-weight: 500;
      margin-left: 220px;
-     margin-top: -120px;
-    
+     margin-top: -100px;
+
+     
       
  } 
  .texxt{
@@ -83,7 +85,7 @@
     width: 400px;
     font-weight: 500;
     margin-left: 220px;
-    margin-top: -50px;
+    margin-top: -80px;
  }
    .App {
      background-color: black;
@@ -93,20 +95,20 @@
 
 
 .check {
-    position: absolute;
-    left: 628px;
-    top: 112px;
+     position: relative;
+     right: 608px;
+     top: -12px;
 } 
 
 .red{
     width: 100px;
-    margin-right: 570px;
-     margin-top: -50px;
+    margin-right: 520px;
+     margin-top: -40px;
 }
 .error{
-    position: absolute;
-    left: 628px;
-    top: 342px;
+    position: relative;
+    right: 608px;
+    top: -12px;
 }
 .third{
     font-family: "Poppins";
@@ -118,14 +120,14 @@
     margin-top: 20px;
 }
 .yellow {
-    margin-right: 580px;
-    margin-top: -70px;
+    margin-right: 520px;
+    margin-top: -50px;
     width: 100px;
 }
 .warning{
-  position: absolute;
-  left: 623px;
-  top: 575px;
+  position: relative;
+  right: 608px;
+  top: -12px;
 }
 .fourth{
     font-family: "Poppins";
@@ -134,24 +136,25 @@
     width: 400px;
     font-weight: 500;
     margin-left: 220px;
-    margin-top: -30px;
+    margin-top: -150px;
 }
 .purpulle{
     width: 100px;
-    margin-right: 570px;
-    margin-top: -75px;
+    margin-right: 597px;
+    margin-top: -55px;
+    
   
 
 }
 .info{
-    position: absolute;
-    left: 630px;
-    top: 820px;
+    position: relative;
+    right: 299px;
+    top: -90px;
 }
 .line{
-   position: absolute;
-   top: 238px;
-   left: 575px;
+    position: relative;
+    top: 187px;
+    left: 10px;
     border-radius: 2px;
     transform: rotate(-90deg);
     z-index: 2;
@@ -161,9 +164,9 @@
     background-color: #00CC99;
 }
 .linne{
-    position: absolute;
-    top: 468px;
-    left: 575px;
+     position: relative;
+     top: 187px;
+     left: 10px;
      transform: rotate(-90deg);
      z-index: 2;
      transform-origin: bottom left;
@@ -173,9 +176,9 @@
      background-color: #EB5757;
 }
 .linee{
-    position: absolute;
-    top: 698px;
-    left: 575px;
+    position: relative;
+    top: 187px ;
+    left: 10px;
      transform: rotate(-90deg);
      z-index: 2;
      transform-origin: bottom left;
@@ -185,9 +188,9 @@
      background-color: #F2C94C;
 }
 .liine{
-    position: absolute;
-    top: 925px;
-    left: 575px;
+     position: relative;
+     top: 187px;
+     left: 10px;
      transform: rotate(-90deg);
      z-index: 2;
      transform-origin: bottom left;
