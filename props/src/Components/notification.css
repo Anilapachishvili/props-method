@@ -1,0 +1,135 @@
+.App{
+    background-color: black;
+    width: 100%;
+    height: 5000px;
+   
+}
+.graybox{
+    width: 700px;
+    height: 70px;
+    background-color: gray;
+    background: #2f3032;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    padding: 40px 20px;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    
+}
+.n-green .icon{
+    background: #00CC99;
+
+}
+.n-red .icon{
+    background: #EB5757;
+}
+.n-yellow .icon{
+    background: #F2C94C;
+}
+.n-purple .icon{
+    background: #5458F7;
+}
+.icon{
+    background: #00CC99;
+    width: 94px;
+    height: 94px;
+    margin: 50px;
+    border-radius: 50px;
+}
+.icon img {
+    margin-top: 17px;
+    width: 60px;
+}
+.main {
+    position: absolute;
+    height: 43px;
+    width: 149px;
+    left: 192px;
+    top: -20px;
+    font-family: 'Poppins';
+    font-weight: 500 ;
+    size: 36px;
+    line-height: 44px;
+}
+.notification-text p{
+    height: 30px;
+    font-family: "Poppins";
+    font-weight:400;
+    font-size: 24px;
+    line-height: 36px;
+ 
+  
+}
+.Error{
+    position: absolute;
+    height: 43px;
+    width: 149px;
+    left: 170px;
+    top: -20px;
+    font-family: 'Poppins';
+    font-weight: 500 ;
+    font-size: 30px;
+    line-height: 44px;
+}
+.Success::before{
+    background-color: #00CC99;
+    position: absolute;
+    content: "";
+    transform-origin: bottom left;
+    transform: rotate(-90deg);
+    width: 150px;
+    height: 10px;
+    margin-top: 140px;
+    left:10px;
+    border-radius: 10px;
+
+}
+.n-red::before{
+    position: absolute;
+    content: "";
+    transform-origin: bottom left;
+    transform: rotate(-90deg);
+    background: #EB5757;
+    width: 150px;
+    height: 10px;
+    margin-top: 140px;
+    left: 10px;
+    border-radius: 10px;
+}
+.n-yellow::before{
+    
+    background: #F2C94C;
+    position: absolute;
+    content: "";
+    transform-origin: bottom left;
+    transform: rotate(-90deg);
+    width: 150px;
+    height: 10px;
+    margin-top: 140px;
+    left: 10px;
+    border-radius: 10px;
+}
+.n-purple::before{
+    background: #5458F7;
+    position: absolute;
+    content: "";
+    transform-origin: bottom left;
+    transform: rotate(-90deg);
+    width: 150px;
+    height: 10px;
+    margin-top: 140px;
+    left: 10px;
+    border-radius: 10px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.line{
+    position: absolute;
+    margin-right: 310px;
+    top: 65px;
+}
